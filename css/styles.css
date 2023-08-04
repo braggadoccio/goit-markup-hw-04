@@ -10,7 +10,7 @@
   --white: #fff;
   --cloud: #f4f4fd;
   --green: #31d0a3;
-  --lightslate: #778899;
+  --lightslate: #8e8f99;
 }
 
 h1,
@@ -192,11 +192,13 @@ body {
   margin-top: 30px;
 }
 
-.benefits-item-icon {
+.benefits .icon {
   width: 264px;
   height: 112px;
-  padding-top: 18px;
-  padding-bottom: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
   background-color: var(--cloud);
 }
 
@@ -286,8 +288,13 @@ body {
   height: 40px;
 }
 
-.icon-item .link:hover,
-.icon-item .link:focus {
+.social-team .icon-item .link:hover,
+.social-team .icon-item .link:focus {
+  background-color: var(--ocean);
+}
+
+.social-footer .icon-item .link:hover,
+.social-footer .icon-item .link:focus {
   background-color: var(--green);
 }
 
